@@ -12,7 +12,8 @@ $loader = new UniversalClassLoader();
 
 $loader->registerNamespaces(array(
     'Factory'         => __DIR__,
-    'Singleton'       => __DIR__
+    'Singleton'       => __DIR__,
+    'Decorator'       => __DIR__
 ));
 
 $loader->register();
